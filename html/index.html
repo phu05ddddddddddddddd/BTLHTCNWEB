@@ -20,52 +20,44 @@
         body {
             font-size: 16px;
             line-height: 1.6px;
-
+            color:black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
         }
-        ul{
-            margin: 0
-;
+        #topheader{
+            background-color: white;
+        }
+
+        #topheader ul{
+            margin: 0;
             padding: 0;
         }
-        #top-contact a {
+        #topcontact a{
             text-decoration: none;
-            color: #333;
-            
+
         }
-        #top-contact a:hover{
-            color: red;
+        #topcontact a:hover{
+            color:red;
         }
+
+    
     </style>
 </head>
-
-<body>
-        <!-- top head-->
-        <div class="container-fluid">
+    <div class="container-fluid">
+        <div class="row text-center" id="topheader">
             <div class="col-md-6 my-2 p-1">
-                <div id="top-contact" class="list-inline mb-0">
-                    <ul>
-                        <li class="list-inline-item mx-2">
-                            <a href="#"><i class="">Về Chúng Tôi</i ></a>
-                        </li>
-                        <li>
-                            <a href="#">Đăng Nhập</a>
-                        </li>
-                        <li>
-                            <a href="#">Đăng Ký</a>
-                        </li>
-                        <li></li>
-                    </ul>
-                </div>
-    
+                <ul id="topcontact" class="list-inline mb-0">
+                    <li class="list-inline-item mx-2"><a href="#"><i >Về Chúng Tôi</i></a></li>
+                    <li class="list-inline-item mx-2"><a href="#"><i>Đăng ký </i></a></li>
+                    <li class="list-inline-item mx-2"><a href="#"><i>Đăng Nhập</i></a></li>
+                    <li class="list-inline-item mx-2"><a href="#"><i>Trang Chủ</i></a></li>
+                    
+                </ul>
             </div>
-            
+
+
 
         </div>
- 
-
-
-    
-</body>
+    </div>
 
 </html>
